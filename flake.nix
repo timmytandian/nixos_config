@@ -30,7 +30,7 @@
     nixosConfigurations = {
       vm-nix = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
-        modules = [./hosts/vm-nix/nix];
+        modules = [./hosts/vm-nix];
       };
     };
     homeConfigurations = {
