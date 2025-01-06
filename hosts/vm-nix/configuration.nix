@@ -54,7 +54,7 @@
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "jp";
-    variant = "";
+    variant = "OADG109A";
   };
 
   # Enable CUPS to print documents.
